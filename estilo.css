@@ -64,7 +64,13 @@ button {
 button:hover{
 	cursor: pointer;
 }
-
+.buttons{
+	background-color: rgb(66, 66, 66);
+	overflow: hidden;
+	border-radius: 500px;
+	margin: 5px;
+	border: 2px solid #ffffff;
+}
 /*menu*/
 .menu{
 	background-color: black;
@@ -78,6 +84,7 @@ button:hover{
 	text-align: center;
 	padding: 14px 16px;
 	font-size: 18px;
+	
 }
 .menu a:hover{
 	background-color: white;
